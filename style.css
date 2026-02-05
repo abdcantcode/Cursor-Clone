@@ -492,3 +492,111 @@ span{
   padding: 0.1rem 0.5rem;
   border-radius: 3rem;
 }
+
+.hero-text.bottom > h2{
+  font-size: 2.15rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.recent-highlights{
+  width: 100%;
+  background-color: purple;
+  /* height: 100rem; */
+}
+
+.highlights-inner{
+  max-width: 84rem;
+  /* height:100%; */
+  margin-top: 4rem;
+  /* padding-inline: var(--padding-inline-primary); */
+  margin-inline: auto;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap:0.65rem;
+}
+
+.fixed-part{
+  position: absolute;
+  top:0;
+  left: 0;
+  /* padding-top: var(--padding-inline-primary);
+  padding-left: var(--padding-inline-primary); */
+}
+.inner-cards-container{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:0.7rem;
+}
+
+.inner-cards{
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  gap:0.7rem;
+  justify-content: space-between;
+  padding: 0.85rem;
+  width: 38.25rem;
+  height: 9.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  
+}
+.bottom-link{
+  align-self: flex-start;
+  
+}
+
+.logo-download{
+  width: 100%;
+}
+
+.logo-download-inner{
+  max-width: 84rem;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-download-inner >h1{
+  font-size: 4.21875rem;
+}
+.logo-download-inner .download-os{
+  padding: 0.75rem 1.375rem;
+  border-radius: 1.5rem;
+  background-color: var(--download-button-color);
+  font-size: 1rem;
+  border: none;
+}
+.section-bottom{
+  width: 100%;
+}
+.section-bottom-inner{
+  max-width: 84rem;
+  margin: auto;
+  padding-inline: var(--padding-inline-primary);
+
+}
+.bottom-container{
+  display: flex;
+  justify-content: flex-start;
+  gap:9.65rem;
+}
+.mini-containers{
+  display: flex;
+  flex-direction: column;
+  gap:0.65rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.mini-containers a{
+  text-decoration: none;
+}
